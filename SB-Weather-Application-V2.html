@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <title>My weather application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-boxes">
+        <header>
+          <form id="cityfield">
+            <div>
+              <input
+                type="search"
+                placeholder="Enter a city.."
+                required
+                class="search-input"
+                id="cityName"
+              />
+              <input type="submit" value="Search" class="search-button" />
+            </div>
+          </form>
+        </header>
+      </div>
+      <main class="current-temperature">
+        <div>
+          <h1>Paris</h1>
+          <p>
+            <span id="date" class="day"> Saturday</span>
+            <span id="hour">15</span>:<span id="minutes">32</span>, moderate
+            rain
+            <br />
+            Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="current-weather-display" id="current-temp">
+          <span class="current-temp-icon">☀️</span>
+          <span class="current-temp-degree">14°C</span>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a
+            href="https://www.linkedin.com/in/sharna-bennett-179144186"
+            target="_blank"
+            >Sharna Bennett</a
+          >
+          and is <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
