@@ -1,0 +1,80 @@
+body {
+  background-color: #e7e7e7;
+  font-family: "Roboto", serif;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(39, 33, 66, 0.4);
+  display: block;
+}
+
+strong {
+  color: #f65286;
+}
+.container {
+  max-width: 600px;
+  display: block;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px 30px;
+  box-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.5);
+}
+
+header {
+  max-width: 100%;
+}
+
+form {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  display: block;
+  max-width: 0 auto;
+  text-align: center;
+}
+
+.search-input {
+  background-color: #f9f7fe;
+  border: none;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  padding: 20px;
+  width: 75%;
+  border-radius: 6px;
+}
+.search-button {
+  margin-left: 5px;
+  font-size: 16px;
+  background-color: #885df1;
+  color: white;
+  border: none;
+  padding: 20px;
+  line-height: 1;
+  border-radius: 5px;
+}
+
+.current-weather-display {
+  padding-top: 30px;
+}
+.current-temperature {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-temp-icon {
+  font-size: 40px;
+  position: relative;
+  top: -8px;
+  margin-right: 10px;
+}
+.current-temp-degree {
+  font-size: 80px;
+  font-weight: bold;
+}
